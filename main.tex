@@ -1,0 +1,44 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Important notes:
+% This template needs to be compiled with XeLaTeX.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[letterpaper]{style} % Use US Letter paper, change to a4paper for A4 
+\usepackage{fontawesome}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{array}
+\usepackage{tikz}
+\def\ci#1{\textcircled{\resizebox{.5em}{!}{#1}}}
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	TITLE SECTION
+%----------------------------------------------------------------------------------------
+
+%\lastupdated % Print the Last Updated text at the top right
+\namesection{{Abdul}}{Mukit}{
+\href{mailto:abdul.mukit@ou.edu}{\ci{\faEnvelope}} {\fontsize{10}{10}\selectfont \href{mailto:abdul.mukit@ou.edu}{abdul.mukit@ou.edu}}}
+{
+\ci{\faPhone}  {\fontsize{10}{10}\selectfont 918-934-8048} 
+}
+{
+\href{https://github.com/Abdul-Mukit}{\ci{\faGithub}} {\fontsize{10}{10}\selectfont \href{https://github.com/Abdul-Mukit}{Abdul-Mukit}}
+}
+{
+\href{http://mukit.oucreate.com/}{\ci{\faChrome}} {\fontsize{9}{10}\selectfont \href{http://mukit.oucreate.com/}{mukit.oucreate.com}}
+}
+{
+\href{https://scholar.google.com/citations?user=fpwDvMUAAAAJ&hl=en}{\ci{\faGraduationCap}}
+}
+{
+\href{https://www.linkedin.com/in/mohammad-abdul-mukit-86b993145/}{\ci{\faLinkedin}}
+}
+
+
+\input{page1.tex}
+\input{page2.tex}
+
+\end{document}
